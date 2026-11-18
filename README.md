@@ -2,14 +2,14 @@
    <a href="https://github.com/EclipseMenu/EclipseMenu">
       <img src="logo.png" alt="Logo" width="120" height="120">
    </a>
-   <h1 align="center">Eclipse</h1>
+   <h1 align="center">ZMenu7</h1>
    <p align="center">
-      A next-generation mod menu for Geometry Dash.
+      A new mod menu for Geometry Dash.
    </p>
 </div>
 <div align="center">
-    <a href="https://github.com/EclipseMenu/EclipseMenu/latest">
-          <img src="https://img.shields.io/github/v/release/EclipseMenu/EclipseMenu" alt="Release version">
+    <a href="https://github.com/Z7PROJECT/ZMenu7">
+          <img src="https://img.shields.io/github/v/Z7PROJECT/ZMenu7/edit/main/README.md" alt="Release version">
     </a>
     <img src="https://img.shields.io/github/downloads/EclipseMenu/EclipseMenu/total" alt="Total downloads">
     <img src="https://img.shields.io/github/downloads/EclipseMenu/EclipseMenu/latest/total" alt="Latest release downloads">
