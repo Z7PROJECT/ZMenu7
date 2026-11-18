@@ -1,10 +1,10 @@
-# Eclipse Menu
-A **next-generation** mod menu for Geometry Dash.
+# ZMenu7
+A new mod menu for Geometry Dash.
 
 ## How to use 
 1. On PC, press `TAB` to open and close the mod menu.
 2. Set or toggle any hack / mod you want to use.
-3. For any questions or general support, join our [Support Discord Server](https://discord.gg/NnpwFRDMND)!
+3. For any questions or general support, use a github
 4. Have fun using our mod!
 
 ## Features
