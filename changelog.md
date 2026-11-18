@@ -85,3 +85,4 @@ No Android support yet, but we're working on it!
 
 ## v1.0.0-beta.1
 * Initial Release!
+# ZMenu7
