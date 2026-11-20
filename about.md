@@ -12,6 +12,7 @@ A customizable mod menu for Geometry Dash.
 - Start Position Switcher
 - Customizable labels
 - Trajectory display
+- Death position markers
 - Replay bot
 - Configurable keybinds
 - Customizable themes
