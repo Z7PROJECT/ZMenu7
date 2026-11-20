@@ -44,7 +44,6 @@
 - Start Position Switcher
 - Customizable labels
 - Trajectory display
-- Internal recorder
 - Replay bot
 - Configurable keybinds
 - Customizable themes and layouts

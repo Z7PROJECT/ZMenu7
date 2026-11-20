@@ -9,21 +9,18 @@ No Android support yet; work is ongoing.
 * Fixed radio button keybinds always selecting the first option.
 * Fixed random crashes involving combo boxes.
 * Fixed several Slider Limit issues.
-* Fixed shader-related issues with the internal recorder.
 * Fixed a rare crash caused by an invalid UI renderer mode.
 * Fixed issues with Instant Complete and Mute Level Audio On Death.
 * Fixed keyboard shortcuts (Ctrl+C, Ctrl+V, etc.) not working in the UI.
 * Fixed keybind deletion crashes.
 * Fixed crashes involving Platformer modes, Practice Coins, and Show Trajectory.
 * Fixed Frame Stepper conflicts with Speedhack.
-* Fixed an issue with slashes in level names when saving a render.
 * Start Position Switcher keybinds now trigger instantly.
 * Practice Music Sync now toggles the corresponding setting automatically.
 * Replay no longer triggers Auto Safe Mode unless a macro is loaded.
 * Added mod descriptions.
 
 **Additions**
-* Added a cross-platform internal recorder backend that does not require a separate FFmpeg installation.
 * Added No Trail, Always Show Trail, and Discord RPC.
 * Added a Show In Editor option to Show Hitboxes.
 * Replaced TPS Bypass with Physics Bypass.
