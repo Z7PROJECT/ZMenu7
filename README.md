@@ -44,6 +44,7 @@
 - Start Position Switcher
 - Customizable labels
 - Trajectory display
+- Death position markers
 - Replay bot
 - Configurable keybinds
 - Customizable themes and layouts
