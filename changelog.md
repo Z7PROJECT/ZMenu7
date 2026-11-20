@@ -21,6 +21,7 @@ No Android support yet; work is ongoing.
 * Added mod descriptions.
 
 **Additions**
+* Added optional Death Markers that show where player deaths occurred; markers clear when restarting or leaving a level.
 * Added No Trail, Always Show Trail, and Discord RPC.
 * Added a Show In Editor option to Show Hitboxes.
 * Replaced TPS Bypass with Physics Bypass.
