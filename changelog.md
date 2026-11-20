@@ -1,88 +1,70 @@
-# Eclipse Menu
+# ZMenu7 changelog
 
 ## v1.0.0-beta.4
-**<cg>Geometry Dash v2.2074</c> support**  
-No Android support yet, but we're working on it!
+**Geometry Dash v2.2074 support**
 
-**Fixes:**
-* <cg>Fixed</c> radio buttons keybinds always setting the first option
-* <cg>Fixed</c> random crash with combo boxes
-* <cg>Fixed</c> some <co>Slider Limit</c> issues
-* <cg>Fixed</c> shader related issues with <co>Internal Recorder</c>
-* <cg>Fixed</c> rare crash when having an invalid UI renderer mode set
-* <cg>Fixed</c> few issues with <co>Instant Complete</c> (#60)
-* <cg>Fixed</c> issues with <co>Mute Level Audio On Death</c> (#60)
-* <cg>Fixed</c> keyboard shortcuts (Ctrl+C, Ctrl+V, etc.) not working in the UI
-* <cg>Fixed</c> keybind deletion crash
-* <cg>Fixed</c> random crashes with <co>All Modes in Platformer</c>, <co>Practice Coins</c> and <co>Show Trajectory</c>
-* <cg>Fixed</c> <co>Frame Stepper</c> bugging out with <co>Speedhack</c>
-* <cg>Fixed</c> an issue with slashes in level name when saving a render
-* <co>StartPos Switcher</c> keybinds now trigger instantly
-* <co>Practice Music Sync</c> now auto-toggles the option in settings
-* Replay does not trigger <co>Auto Safe Mode</c> unless you have a loaded macro
-* Added some mod descriptions (#19, #70)
+No Android support yet; work is ongoing.
 
-**Additions**:
-* <cy>New</c> Internal Recorder backend (crossplatform support, no need to install ffmpeg)
-* Added <cg>No Trail</c>
-* Added <cg>Always Show Trail</c>
-* Added <cg>Discord RPC</c>
-* Added <cg>Show In Editor</c> option to <co>Show Hitboxes</c>
-* Replaced <co>TPS Bypass</c> with <cg>Physics Bypass</c>
-* Added <co>Place Checkpoint</c> and <co>Remove Checkpoint</c> shortcuts
-* Added custom keybinds for <co>P1/P2 jump</c>
-* Added <cg>Endscreen Cheat Indicator</c>
-* <co>Auto Safe Mode</c> now stores your attempt state (whether any cheats were active at any time)
-* <cg>Click Between Frames</c> toggle if you have the mod installed
-* <cy>New</c> label variables: 
-`isDualMode`, `cubeIcon`, `shipIcon`, `ballIcon`, `ufoIcon`, `waveIcon`, 
-`robotIcon`, `spiderIcon`, `swingIcon`, `gamemode`, `playerIcon`, `levelDescription`, 
-`frameReal`, `tps`, `runStart`
-* <cy>Updated</c> <co>RIFT</c> scripting with more features:
-    * Added <cg>cfg</c> function to get values from settings
-    * Improved overall performance and stability
-    * Fixed some expressions not working as expected
-    * Added <cg>int</c>, <cg>float</c> and <cg>str</c> functions, to convert variable types
-    * Added <cg>duration</c> function to convert seconds into a formatted time string
-    * Added <cg>$</c> operator to evaluate sub-expressions
-* Added <cg>Eclipse API</c> for developers to interact with the mod (BetterInfo users might notice a new tab :D)
+**Fixes**
+* Fixed radio button keybinds always selecting the first option.
+* Fixed random crashes involving combo boxes.
+* Fixed several Slider Limit issues.
+* Fixed shader-related issues with the internal recorder.
+* Fixed a rare crash caused by an invalid UI renderer mode.
+* Fixed issues with Instant Complete and Mute Level Audio On Death.
+* Fixed keyboard shortcuts (Ctrl+C, Ctrl+V, etc.) not working in the UI.
+* Fixed keybind deletion crashes.
+* Fixed crashes involving Platformer modes, Practice Coins, and Show Trajectory.
+* Fixed Frame Stepper conflicts with Speedhack.
+* Fixed an issue with slashes in level names when saving a render.
+* Start Position Switcher keybinds now trigger instantly.
+* Practice Music Sync now toggles the corresponding setting automatically.
+* Replay no longer triggers Auto Safe Mode unless a macro is loaded.
+* Added mod descriptions.
+
+**Additions**
+* Added a cross-platform internal recorder backend that does not require a separate FFmpeg installation.
+* Added No Trail, Always Show Trail, and Discord RPC.
+* Added a Show In Editor option to Show Hitboxes.
+* Replaced TPS Bypass with Physics Bypass.
+* Added Place Checkpoint and Remove Checkpoint shortcuts.
+* Added custom keybinds for P1/P2 jump.
+* Added Endscreen Cheat Indicator.
+* Auto Safe Mode now stores whether cheats were active during an attempt.
+* Added a Click Between Frames toggle when the corresponding mod is installed.
+* Added new label variables: `isDualMode`, `cubeIcon`, `shipIcon`, `ballIcon`, `ufoIcon`, `waveIcon`, `robotIcon`, `spiderIcon`, `swingIcon`, `gamemode`, `playerIcon`, `levelDescription`, `frameReal`, `tps`, and `runStart`.
+* Expanded RIFT scripting with configuration access, improved stability, type-conversion helpers, duration formatting, and sub-expression evaluation.
+* Added the ZMenu7 API for developers who want to interact with the mod.
 
 ## v1.0.0-beta.3
-**Fixes:**
-* <cg>Fixed</c> <co>Pause Countdown</c> taking 2.5 seconds instead of 3 seconds
-* <cg>Fixed</c> <co>Noclip Deaths</c> not working properly
-* <cg>Fixed</c> <co>Respawn Delay</c> not being able to added as a keybind
-* Moved <co>Copy Bypass</c> and <co>Verify Bypass</c> to the Creator tab
-* Fixed several issues with label parser
+**Fixes**
+* Fixed Pause Countdown timing.
+* Fixed Noclip Deaths.
+* Fixed Respawn Delay keybind registration.
+* Moved Copy Bypass and Verify Bypass to the Creator tab.
+* Fixed several label parser issues.
 
-**Additions**:
-* Added <cg>0% Practice Completion</c>
-* Added <cg>No Mirror</c>
-* Added <cg>Instant Mirror</c>
-* Added <cg>No Object Glow</c>
-* Added <cg>Level Uncomplete Shortcut</c>
-* Labels can now be reordered
-* Macros can now be deleted in the menu itself
+**Additions**
+* Added 0% Practice Completion, No Mirror, Instant Mirror, No Object Glow, and Level Uncomplete Shortcut.
+* Labels can now be reordered.
+* Macros can now be deleted from the menu.
 
 ## v1.0.0-beta.2
-**Fixes:**
-* <cg>Fixed</c> <co>Force Platformer</c> not working in online levels
-* <cg>Fixed</c> the invisible interface tab when using the panel layout
-* <cg>Fixed</c> the immediate change of font size
-* <cg>Fixed</c> the awkward left window size in Sidebar layout
-* <cg>Fixed</c> <co>Smart Startpos</c> on <cb>macOS</c>
-* <cg>Fixed</c> crash if theme file was corrupted
+**Fixes**
+* Fixed Force Platformer in online levels.
+* Fixed the invisible interface tab in Panel layout.
+* Fixed immediate font-size changes.
+* Fixed the Sidebar layout window size.
+* Fixed Smart Start Position on macOS.
+* Fixed crashes caused by corrupted theme files.
 
-**Additions**:
-* Added <cg>Solid Wave Trail</c>
-* Added <cg>Custom Wave Trail</c>
-* Added <cg>Stop Triggers on Death</c>
-* Added <cg>Noclip Death Limit</c> and <cg>Noclip Accuracy Limit</c>
-* Keybinds will now not activate if you are typing in a GD text box
-* Added a hint message for adding a new keybind
-* Automatically disable <cr>Click Between Frames</cr> when botting
-* Added <cg>new variables</c> for labels: `framestepper`, `monthName`, `lastDeath`
+**Additions**
+* Added Solid Wave Trail, Custom Wave Trail, and Stop Triggers on Death.
+* Added Noclip Death and Accuracy limits.
+* Keybinds no longer activate while typing in a Geometry Dash text box.
+* Added a hint for creating keybinds.
+* Click Between Frames is automatically disabled while using the bot.
+* Added label variables: `framestepper`, `monthName`, and `lastDeath`.
 
 ## v1.0.0-beta.1
-* Initial Release!
-# ZMenu7
+* Initial release.

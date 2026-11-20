@@ -1,88 +1,73 @@
 <div align="center">
-   <a href="https://github.com/EclipseMenu/EclipseMenu">
-      <img src="logo.png" alt="Logo" width="120" height="120">
+   <a href="https://github.com/Z7PROJECT/ZMenu7">
+      <img src="logo.png" alt="ZMenu7 logo" width="120" height="120">
    </a>
    <h1 align="center">ZMenu7</h1>
-   <p align="center">
-      A new mod menu for Geometry Dash.
-   </p>
+   <p align="center">A customizable mod menu for Geometry Dash.</p>
 </div>
+
 <div align="center">
     <a href="https://github.com/Z7PROJECT/ZMenu7">
-          <img src="https://img.shields.io/github/v/Z7PROJECT/ZMenu7/edit/main/README.md" alt="Release version">
+      <img src="https://img.shields.io/github/v/release/Z7PROJECT/ZMenu7" alt="Release version">
     </a>
-    <img src="https://img.shields.io/github/downloads/EclipseMenu/EclipseMenu/total" alt="Total downloads">
-    <img src="https://img.shields.io/github/downloads/EclipseMenu/EclipseMenu/latest/total" alt="Latest release downloads">
-    <a href="LICENSE">
-      <img src="https://img.shields.io/github/license/EclipseMenu/EclipseMenu" alt="License">
+    <img src="https://img.shields.io/github/downloads/Z7PROJECT/ZMenu7/total" alt="Total downloads">
+    <a href="LICENSE.md">
+      <img src="https://img.shields.io/github/license/Z7PROJECT/ZMenu7" alt="License">
     </a>
-    <a href="https://github.com/EclipseMenu/EclipseMenu/issues">
-      <img src="https://img.shields.io/github/issues/EclipseMenu/EclipseMenu" alt="Issues">
+    <a href="https://github.com/Z7PROJECT/ZMenu7/issues">
+      <img src="https://img.shields.io/github/issues/Z7PROJECT/ZMenu7" alt="Issues">
     </a>
     <a href="https://discord.gg/NnpwFRDMND">
       <img src="https://img.shields.io/discord/1256092297829945414?label=discord&logo=discord" alt="Discord">
     </a>
 </div>
-<br>
 
-## Tabbed Style
-<img src="screenshots/image1.png" alt="Tabbed Style">
+## Tabbed style
+<img src="screenshots/image1.png" alt="Tabbed style">
 
-## Panel Style 
-<img src="screenshots/image2.png" alt="Panel Style">
+## Panel style
+<img src="screenshots/image2.png" alt="Panel style">
 
-## How to install
-1. Install [Geode](https://geode-sdk.org) if you haven't already!
-2. Open Geometry Dash
-3. Click on the Geode button
-4. Navigate to the **Download** tab, and search "Eclipse"
-5. Click on **View**, and **Download**. You should now have **Eclipse Menu** after restarting!
+## Installation
+1. Install [Geode](https://geode-sdk.org).
+2. Open Geometry Dash and select the Geode button.
+3. Open the Download tab and search for **ZMenu7**.
+4. Open the mod page, select Download, and restart the game.
 
-## How to use
-1. On PC, press `TAB` to open and close the mod menu.
-2. Set or toggle any hack / mod you want to use.
-3. For any questions or general support, join our [Support Discord Server](https://discord.gg/NnpwFRDMND)!
-4. Have fun using our mod!
+## Usage
+- On PC, press `TAB` to open or close the menu.
+- Enable or configure the features you want to use.
+- For help, join the [Support Discord server](https://discord.gg/NnpwFRDMND).
 
 ## Features
-- 90+ hacks
-- Startpos Switcher (with Smart Smartpos!)
-- Fully Customizable Labels
-- Show Trajectory
-- Internal Recorder
-- Replay Bot
-- Keybinds
-- Theme Customizability (you can theme Eclipse Menu however you want!)
+- 90+ gameplay and utility features
+- Start Position Switcher
+- Customizable labels
+- Trajectory display
+- Internal recorder
+- Replay bot
+- Configurable keybinds
+- Customizable themes and layouts
 
-## Build Instructions
-1. You must have the following: `CMake`, `MSVC / Clang`, `Git`, `Geode CLI`, `Geode SDK`
+## Build instructions
+Requirements: CMake, MSVC or Clang, Git, Geode CLI, and the Geode SDK.
+
 ```bash
-git clone https://github.com/EclipseMenu/EclipseMenu
-cd EclipseMenu
+git clone https://github.com/Z7PROJECT/ZMenu7
+cd ZMenu7
 cmake -B build -DCMAKE_BUILD_TYPE=RelWithDebInfo
 cmake --build build --config RelWithDebInfo
 ```
 
 ## Credits
-This mod menu would not be possible without the developers from other mod menus teaming up together!
-- [ninXout](https://github.com/ninXout) ([Crystal Client](https://github.com/ninXout/Crystal-Client))
-- [prevter](https://github.com/Prevter) ([OpenHack](https://github.com/Prevter/OpenHack))
-- [maxnut](https://github.com/maxnut) ([GD Mega Overlay](https://github.com/maxnut/GDMegaOverlay))
-- [Firee](https://github.com/FireMario211) ([Prism Menu](https://github.com/FireMario211/Prism-Menu))
+Thanks to the developers whose work and contributions helped make this project possible:
+- [ninXout](https://github.com/ninXout) — [Crystal Client](https://github.com/ninXout/Crystal-Client)
+- [prevter](https://github.com/Prevter) — [OpenHack](https://github.com/Prevter/OpenHack)
+- [maxnut](https://github.com/maxnut) — [GD Mega Overlay](https://github.com/maxnut/GDMegaOverlay)
+- [Firee](https://github.com/FireMario211) — [Prism Menu](https://github.com/FireMario211/Prism-Menu)
 - [SpaghettDev](https://github.com/SpaghettDev)
 
-Additionally, thank you to our testers, contributors, and supporters for improving and helping make Eclipse Menu possible!
-- [Tallen](https://tallensuired.carrd.co/) - Tester & Helped support **Eclipse Menu** by donating!
-- [hiimjustin000](https://github.com/hiimjustin000) - Contributor
-- [RayDeeUx](https://github.com/RayDeeUx) - Contributor
-- [iAndyHD3](https://github.com/iAndyHD3) - Contributor
-- [Tech](https://github.com/TechStudent11) - Contributor
-- [alex](https://www.youtube.com/channel/UC4SWcPASJplMrIT6YI8QcSw) - Tester
-- itsmeatomic - Tester
-- jettjames - Tester
-- doki - Tester
-- [Prometheus](https://github.com/Prometheus-03) - Tester
-- [Catto](https://github.com/CattoDev/GatoBot/) - ShaderLayer fix for renderer
+Thanks to all testers, contributors, and supporters.
 
 ## License
-**Eclipse Menu** is created under the **[Eclipse Public License v2.0](https://choosealicense.com/licenses/epl-2.0/)**, read more by clicking on the highlighted name.
+This project is distributed under the terms in [LICENSE.md](LICENSE.md) (CC0 1.0 Universal).
